@@ -10,5 +10,6 @@ Changes to made in yaml file :-
 
 3) AWS_REGION
 
-COMMAND: 
+COMMAND to create deployment in your defined namespace : 
+
 kubectl create -f cluster-autoscaler.yaml --namespace XXX
