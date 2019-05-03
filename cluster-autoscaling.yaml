@@ -29,7 +29,7 @@ spec:
             - --v=4
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
-            - --nodes=5:8:nodes-us-east-2a.aml-infra-3.thefynd.net
+            - --nodes=MIN_NODE:MAX_NODE:AUTO_SCALING_GROUP
           env:
             - name: AWS_REGION
               value: us-east-2a
